@@ -4,7 +4,7 @@ FROM alpine:3.18
 WORKDIR /pb
 
 # Download PocketBase
-ADD https://github.com/pocketbase/pocketbase/releases/download/v0.22.9/pocketbase_0.22.9_linux_amd64.zip pb.zip
+ADD https://github.com/pocketbase/pocketbase/releases/download/v0.29.2/pocketbase_0.29.2_linux_amd64.zip pb.zip
 
 # Install unzip, unzip the binary, and remove zip
 RUN apk add --no-cache unzip \
